@@ -316,16 +316,16 @@ int main(){
         printf("1 - Append\n");
         printf("2 - Prepend\n");
         printf("3 - Reverse\n");
-        printf("4 - Add a value to the specific index\n");
-        printf("5 - Remove a value from a specific index\n");
-        printf("6 - Sort the linked list, with re-arranging the cells\n");
-        printf("7 - Search for a value\n");
+        printf("4 - Append to the specific index\n");
+        printf("5 - Remove\n");
+        printf("6 - Sort\n");
+        printf("7 - Search\n");
         printf("8 - Join two linked lists\n");
         printf("9 - Backwards traversal, using double-linked-list\n");
-        printf("10 - Load the data in a new file\n");
+        printf("10 - New file\n");
         printf("11 - Read from a file\n");
         printf("12 - Choose the list\n");
-        printf("0 - End of execution\n");
+        printf("0 - Exit\n");
         scanf("%d", &option);
 
     switch(option){
